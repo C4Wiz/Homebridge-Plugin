@@ -28,9 +28,12 @@ separator()
 #gets Homebridge Status (active or inactive)
 print "Homebridge Appliance Status: | color=silver"
 #if active:
- #print('Homebridge Down | color=red')
+ #print('Homebridge Inactive | color=red')
 #else:
- #print('Homebridge Running | color=green')
+ #print('Homebridge Active | color=green')
+
+print "Homebridge Module Versions: | color=silver"
+separator()
 
 # gets Homebridge versions
 #if homebridge_core['current'] != homebridge_core['latest']:
@@ -47,4 +50,5 @@ separator()
  #print("Update available: %s" % homebridge_appliance['latest']) + "| color=red"
 #else:
  #print("Up to date| color=green")
+separator()
 separator()
